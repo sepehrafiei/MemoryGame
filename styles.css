@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Sacramento", sans-serif;
+}
+
+body{
+    background: url("images/background.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+button{
+    padding:0;
+    margin:0;
+    background:rgb(119, 31, 129);
+    width:500px;
+    height:300px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+    
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    font-size: 100px;
+    font-weight:bold;
+    color: #fff;
+
+    
+
+}
+
+
+
+button:hover{
+    cursor:pointer;
+    
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #bc13fe,
+        0 0 45px #bc13fe,
+        0 0 55px #bc13fe,
+        0 0 70px #bc13fe,
+        0 0 80px #bc13fe;
+  
+}
+
+
+container{
+  
+    display:flex;
+    width: 1000px;
+    height: 550px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#time{
+    color:white;
+    position:absolute;
+    top:0px;
+    font-size:90px;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe,
+    0 0 70px #bc13fe,
+    0 0 80px #bc13fe;
+}
+
+img{
+    margin:30px;
+    width:250px;
+    height:250px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+    
+    background: rgb(196, 67, 207);
+    transition: all 1s ease-in-out;
+
+    
+}
+
+img:hover{
+    cursor:pointer;
+    background: rgb(121, 32, 133);
+    transition:none;
+}
